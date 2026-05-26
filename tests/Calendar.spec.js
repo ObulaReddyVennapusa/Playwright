@@ -4,7 +4,7 @@ test('Calendar Test', async({page})=>{
 const month="5";
 const day="7";
 const year="2028";
-//calendar 
+//calendar test ran successfully
 const expectedList= [month, day, year]
 
     await page.goto("https://rahulshettyacademy.com/seleniumPractise/#/offers");
