@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","1313","@API place order","","2026-05-21","passed","2026-05-21","","WebAPI.spec.js","",""
+"","11081","@Web client app using customTest fixture","","2026-05-21","passed","2026-05-21","","LetShopPO_CustomTest.spec.ts","",""
+"","7611","@API client app","","2026-05-21","passed","2026-05-21","","WebAPIpart2.spec.js","",""

@@ -1,0 +1,31 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "regression": "npx playwright test",
+    "webTests": "npx playwright test --grep \"@Web\"",
+    "APItests": "npx playwright test --grep \"@API\"",
+    "safari": "npx playwright test tests/LetShopPO_CustomTest.spec.js --config playwright.config1.js --project=safari",
+    "typeScriptTests": "npx playwright test LetShopPO_CustomTest.spec.ts",
+    "cucumberParallel": "npx cucumber-js features/Ecommerce.feature --parallel=2 --retry=1  --exit  --format  html:cucumber-report.html",
+    "cucumberRegression": "npx cucumber-js --tags '@Regression' --exit  --retry=1 --format html:cucumber-report.html   "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@azure/identity": "^4.13.1",
+    "@azure/playwright": "^1.1.5",
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.7.0",
+    "allure-playwright": "^3.9.0",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^12.9.0",
+    "exceljs": "^4.4.0"
+  }
+}
