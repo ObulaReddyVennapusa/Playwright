@@ -1,0 +1,16 @@
+{
+  "name": "playwright-mcp",
+  "version": "0.1.0",
+  "description": "MCP configuration for the PlayWright workspace",
+  "entrypoint": "mcp.server.js",
+  "agents": [],
+  "models": {
+    "default": "gpt-5-mini"
+  },
+  "tools": {
+    "docker": false
+  },
+  "env": {
+    "PORT": 3000
+  }
+}
